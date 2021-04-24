@@ -1,14 +1,13 @@
 package dev.highright96.itemservice.domain.item;
 
-import org.assertj.core.api.Assertions;
+import dev.highright96.springmvc.itemservice.domain.item.Item;
+import dev.highright96.springmvc.itemservice.domain.item.ItemRepository;
 import org.junit.jupiter.api.AfterEach;
-import org.junit.jupiter.api.BeforeAll;
 import org.junit.jupiter.api.Test;
 
 import java.util.List;
 
 import static org.assertj.core.api.Assertions.assertThat;
-import static org.junit.jupiter.api.Assertions.*;
 
 class ItemRepositoryTest {
 

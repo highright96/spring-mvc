@@ -1,4 +1,4 @@
-package dev.highright96.itemservice.domain.item;
+package dev.highright96.springmvc.itemservice.domain.item;
 
 import org.springframework.stereotype.Repository;
 

@@ -1,15 +1,15 @@
-package dev.highright96.itemservice.domain.item;
+package dev.highright96.springmvc.itemservice.domain.item;
 
-import lombok.Data;
 import lombok.Getter;
 import lombok.Setter;
 
-@Getter @Setter
+@Getter
+@Setter
 public class Item {
-    private Long id;
-    private String itemName;
-    private Integer price;
-    private Integer quantity;
+    Long id;
+    String itemName;
+    Integer price;
+    Integer quantity;
 
     public Item() {
     }
